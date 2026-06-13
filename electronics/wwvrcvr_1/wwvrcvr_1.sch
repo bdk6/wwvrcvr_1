@@ -382,4 +382,59 @@ Wire Wire Line
 	5425 4100 5425 4000
 Wire Wire Line
 	6150 3525 6150 3750
+$Comp
+L Device:L_Core_Ferrite_Coupled L?
+U 1 1 638694E8
+P 3775 3325
+F 0 "L?" V 3729 3137 50  0000 R CNN
+F 1 "L_Core_Ferrite_Coupled" V 3820 3137 50  0000 R CNN
+F 2 "" H 3775 3325 50  0001 C CNN
+F 3 "~" H 3775 3325 50  0001 C CNN
+	1    3775 3325
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:Antenna AE?
+U 1 1 6386B9D0
+P 3675 2700
+F 0 "AE?" H 3755 2689 50  0000 L CNN
+F 1 "Antenna" H 3755 2598 50  0000 L CNN
+F 2 "" H 3675 2700 50  0001 C CNN
+F 3 "~" H 3675 2700 50  0001 C CNN
+	1    3675 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6386BE07
+P 3675 3750
+F 0 "#PWR?" H 3675 3500 50  0001 C CNN
+F 1 "GND" H 3680 3577 50  0000 C CNN
+F 2 "" H 3675 3750 50  0001 C CNN
+F 3 "" H 3675 3750 50  0001 C CNN
+	1    3675 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1075 2050 1075 1800
+Wire Wire Line
+	1075 1400 1075 1125
+Wire Wire Line
+	1075 1125 4975 1125
+Wire Wire Line
+	4975 1125 4975 1275
+Text Notes 2475 3400 0    50   ~ 0
+T37-6 core\nPrimary: 4 turns #32\nSecondary: 31 turns #32
+Wire Wire Line
+	3675 3125 3675 2900
+Wire Wire Line
+	3675 3525 3675 3750
+Wire Wire Line
+	6150 3225 5025 3225
+Wire Wire Line
+	5025 3525 3875 3525
+Wire Wire Line
+	3875 3125 6150 3125
+Wire Wire Line
+	5025 3225 5025 3525
 $EndSCHEMATC
